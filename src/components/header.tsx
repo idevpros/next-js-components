@@ -1,3 +1,4 @@
+'use client';
 import { Menu as MenuIcon, X as CloseIcon, ChevronDown } from 'lucide-react';
 import { useState } from 'react';
 
@@ -32,7 +33,7 @@ const Header = () => {
 
     return (
         <header className="w-full bg-black text-white">
-            <nav className="max-w-7xl mx-auto flex items-center justify-between p-4 relative">
+            <nav className="max-w-7xl mx-auto flex items-center justify-between p-2 relative">
                 <div className="text-2xl font-bold">My App</div>
 
                 {/* Desktop Nav */}
